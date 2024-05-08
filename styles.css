@@ -1,0 +1,33 @@
+
+body {
+    font-family: Courier New, Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.tableau-periodique {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 2px;
+}
+
+
+.element {
+    background-color: #ffffff5e;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #bd0e0e5e;
+}
+.element#H {
+    grid-column: span 17;
+}
+.element#Be {
+    grid-column: span 11;
+}
+.element#Mg {
+    grid-column: span 11;
+}
+
+
